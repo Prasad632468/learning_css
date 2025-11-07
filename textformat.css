@@ -1,0 +1,60 @@
+.t_transfrom_upper{
+    text-transform: uppercase;
+}
+.t_transfrom_lower{
+    text-transform: lowercase;
+}
+.t_transfrom_capitalize{
+    text-transform: capitalize;
+}
+.t_center{
+    text-align: center;
+}
+.t_right{
+    text-align: right;
+}
+.t_decor_under{
+    text-decoration: underline;
+}
+.t_decor_over{
+    text-decoration: overline;
+}
+.t_decor_line{
+    text-decoration: line-through;
+}
+.t_prasad{
+    text-decoration: line-through overline underline;
+}
+.t_indent{
+    text-indent: 160px;
+    font-size: 30px;
+}
+.letter_space{
+    letter-spacing: 10px;
+
+}
+.word_space{
+    word-spacing: 30px;
+}
+.line_height{
+    line-height: 40px;
+    font-size: 30px;
+}
+.t_shadow{
+    color: rgb(0, 153, 255);
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    font-size: 70px;
+    text-align: center;
+}
+.t_salman{
+    color: rgb(255, 0, 110);
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    font-size: 70px;
+    text-align: center;
+}
+.t_java{
+    color: rgb(0, 255, 153);
+    text-shadow: 4px 6px 4px rgb(60, 36, 36), 5px 5px 5px rgb(255, 0, 110);
+    font-size: 70px;
+    text-align: center;
+}
