@@ -1,11 +1,53 @@
-h3{
-    color: brown !important;
-    font-size: 50px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    color: #222;
 }
-h4{
-    font-size: 50px;
-    color: green !important;
+
+.header {
+    background-color: #2b6777;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
-h3{
-    color: rgb(0, 38, 255);
+
+.navbar {
+    background-color: #52ab98;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #c8d8e4;
+    color: black;
+}
+
+.content {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.service-box {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 5px solid #52ab98;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #2b6777;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
