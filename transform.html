@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            margin: 10px;
+            padding-top:50px;
+            flex-wrap: wrap;
+        }
+        .container .box{
+            height:150px;
+            width: 150px;
+            background-color: green;
+            margin: 20px;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            color: aliceblue;
+            display: flex;
+            border-radius: 10px;
+            transition: transform 2s ease-in-out ;
+        }
+        .box1:hover{
+            transform: translate(120px,120px);
+        }
+        .box2:hover{
+            transform: translateX(125px);
+        }
+        .box3:hover{
+            transform: translateY(125px);
+        }
+        .box4:hover{
+            transform: rotate(39deg);
+        }
+        .box5:hover{
+            transform: skew(35deg);
+        }
+        .box6:hover{
+            transform: scale(1.5);
+        }
+        .box7:hover{
+            transform: scale(1.5) translateX(100px) rotate(80deg);
+        }
+    </style>
+</head>
+<body>
+ 
+ <div class="container">
+    <div class="box box1">translate</div>
+    <div class="box box2">translateX</div>
+    <div class="box box3">translateY</div>
+    <div class="box box4">Rotate</div>
+    <div class="box box5">Skew</div>
+    <div class="box box6">Scale</div>
+    <div class="box box7">Multiple</div>
+ </div>
+ 
+</body>
+</html>
