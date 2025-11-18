@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: relative;
+            animation: moving;
+            animation-duration: 10s;
+            animation-iteration-count: 5;
+            animation-timing-function: linear;
+            background-repeat: no-repeat;
+        }
+        @keyframes moving {
+             0%{background-image: url(images/img10.jpg); left: 0px; top: 0px; }
+             25%{background-image: url(images/img3.jpg);  left: 300px; top: 0px;}
+             50%{background-image:url(images/img5.webp);  left: 300px; top:300px;}
+             75%{background-image: url(images/img6.webp);  left: 0px; top: 300px;}
+             100%{background-image: url(images/img7.jpg);  left: 0px;left: 0px;}
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+    </div>
+</body>
+</html>
